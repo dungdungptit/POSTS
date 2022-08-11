@@ -5,3 +5,19 @@ npm i express express-handlebars method-override mongoose nodemon body-parser co
 1234: dung's password
 express-posts: dung's database name
 */
+
+// sau khi hoan thanh app
+const PORT = process.env.PORT || 5000
+start : node index.js
+heroku login
+heroku create
+git init
+tao file .gitignore va them node_modules vao trong file do de khong push node_modules len github
+git add .
+git commit -m "first commit"
+heroku git:remote -a name-app
+git push heroku master
+heroku open || heroku open --app app-name
+
+// rename app
+heroku apps:rename new-name

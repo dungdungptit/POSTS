@@ -1,0 +1,3 @@
+{
+    "mongooseURI": "mongodb+srv://dung:1234@posts.pyukl1d.mongodb.net/express-posts?retryWrites=true&w=majority" 
+}

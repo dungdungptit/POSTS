@@ -1,0 +1,7 @@
+npm init
+npm i express express-handlebars method-override mongoose nodemon body-parser config
+
+/* 
+1234: dung's password
+express-posts: dung's database name
+*/
